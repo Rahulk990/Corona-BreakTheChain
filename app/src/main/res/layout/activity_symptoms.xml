@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6D4F8"
+    tools:context=".symptoms">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Recognise Symptoms"
+                android:textColor="#2196F3"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch1"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="High Fever"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/symp0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch2"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Toothache"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/symp1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch3"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Breathing Problems"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp2" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="ch4"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Vomiting"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp3" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch5"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dry cough"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp4" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch6"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Weak Eyes"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp5" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch7"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiredness"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp6" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:onClick="ch8"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Headache"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp7" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:gravity="center_horizontal"
+                        android:onClick="ch9"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/check9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Runny Nose"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/symp8" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="50sp"
+                android:onClick="submit"
+                android:backgroundTint="#FBE8AF"
+                android:background="@drawable/des_cat_button"
+                android:text="submit"
+                android:textColor="#FFC107"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

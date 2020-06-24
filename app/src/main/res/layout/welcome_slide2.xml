@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disclaimer"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="The sole purpose of this game is entertainment and spread awareness among the people regarding the COVID 19 and its symptoms and cure. In no means the game tries to spread false information and to create panic and chaos among the people.The game does not threaten the unity, integrity, defense, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting any other nation.
+\nAll the information on this application is published in good faith and for general information purpose only. We do not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this application is strictly at your own risk.This app will not be liable for any losses and/or damages in connection with the use of our application. All rights of the game are reserved with the developers and no part of this game should be reproduced in any form without written permission of the developers.
+\nConsent
+By using our application, you hereby consent to our disclaimer and agree to its terms.
+\nUpdate
+Should we update, amend or make any changes to this document, those changes will be prominently posted here."
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
