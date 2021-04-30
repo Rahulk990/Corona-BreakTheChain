@@ -11,8 +11,9 @@ Here we try to fulfil your wish by presenting before you the game, Corona: Break
 - Contains a Quiz to help spread awareness about he covid19 
 
 ## _Snapshots_
-<img src="snapshots/ss1.jpeg" width="300" height="500"/>   <img src="snapshots/ss2.jpeg" width="300" height="500"/>   <img src="snapshots/ss3.jpeg" width="300" height="500"/>   <img src="snapshots/ss4.jpeg" width="300" height="500"/> 
 
+<img src="/snapshots/ss1.jpg" width="300" height="500"/>   <img src="/snapshots/ss2.jpg" width="300" height="500"/>
+<img src="/snapshots/ss3.jpg" width="300" height="500"/>   <img src="/snapshots/ss4.jpg" width="300" height="500"/> 
 
 ## _Try it Yourself_
 [Download the APK](https://drive.google.com/file/d/15LzCKRERFbVSX9oPNMeUxNL1tkAgX4Md/view)
