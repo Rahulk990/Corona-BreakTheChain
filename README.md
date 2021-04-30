@@ -8,7 +8,7 @@ Here we try to fulfil your wish by presenting before you the game, Corona: Break
 ## _Features_
 - Simulates the situation of covid19 in India and allows the user to take decisions
 - Spreads awareness by providing information about covid19
-- Contains a Quiz to help spread awareness about he covid19 
+- Contains a Quiz to help spread awareness about the covid19 
 
 ## _Snapshots_
 
